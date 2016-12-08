@@ -1,0 +1,15 @@
+"D:\IAR\arm\bin\armproc.dll" 
+
+"D:\IAR\arm\bin\armstlink2.dll" 
+
+"E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Release\Exe\IAR_DEMO.out" 
+
+--plugin "D:\IAR\arm\bin\armbat.dll" 
+
+--device_macro "D:\IAR\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "D:\IAR\arm\config\flashloader\ST\FlashSTM32F10xx8.board" 
+
+
+
+

@@ -1,0 +1,618 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                01/Dec/2016  15:20:26
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Exe\IAR_DEMO.out
+#    Map file     =  
+#        E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\List\IAR_DEMO.map
+#    Command line =  
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\dma.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\GPIO.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\main.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\mb.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\mbcrc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\mbfunccoils.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\mbfuncdiag.o" "E:\Freemodbus从机（T15第二版）测试
+#        - 副本\EWARM\Debug\Obj\mbfuncdisc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\mbfuncholding.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\mbfuncinput.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\mbfuncother.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\mbrtu.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\mbutils.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\misc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\port.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\portevent.o" "E:\Freemodbus从机（T15第二版）测试
+#        - 副本\EWARM\Debug\Obj\portserial.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\porttimer.o" "E:\Freemodbus从机（T15第二版）测试
+#        - 副本\EWARM\Debug\Obj\startup_stm32f10x_hd.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_adc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_bkp.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_can.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_cec.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_crc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_dac.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_dbgmcu.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_dma.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_exti.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_flash.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_fsmc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_gpio.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_i2c.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_it.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_iwdg.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_pwr.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_rcc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_rtc.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_sdio.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_spi.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_tim.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_usart.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\stm32f10x_wwdg.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\system_stm32f10x.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\Timers.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\USART.o"
+#        "E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj\usart1.o"
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Obj\user_mb_app.o" -o
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\Exe\IAR_DEMO.out" --map
+#        "E:\Freemodbus从机（T15第二版）测试 -
+#        副本\EWARM\Debug\List\IAR_DEMO.map" --config
+#        D:\IAR\arm\config\linker\ST\stm32f103x8.icf --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20004fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x130
+  .intvec            ro code  0x08000000   0x130  startup_stm32f10x_hd.o [1]
+                            - 0x08000130   0x130
+
+"P1":                                     0x255a
+  .text              ro code  0x08000130   0x504  mbrtu.o [1]
+  .text              ro code  0x08000634   0x16c  portserial.o [1]
+  .text              ro code  0x080007a0   0x29c  porttimer.o [1]
+  .text              ro code  0x08000a3c    0x24  ABIassert.o [5]
+  .text              ro code  0x08000a60    0x3c  mbcrc.o [1]
+  .text              ro code  0x08000a9c    0x40  portevent.o [1]
+  .text              ro code  0x08000adc   0x140  stm32f10x_tim.o [1]
+  .text              ro code  0x08000c1c   0x314  user_mb_app.o [1]
+  .text              ro code  0x08000f30   0x1c0  stm32f10x_usart.o [1]
+  .text              ro code  0x080010f0   0x118  stm32f10x_rcc.o [1]
+  .text              ro code  0x08001208    0xc0  stm32f10x_gpio.o [1]
+  .text              ro code  0x080012c8    0x7c  misc.o [1]
+  .text              ro code  0x08001344     0x6  abort.o [3]
+  .text              ro code  0x0800134c    0xbe  mbutils.o [1]
+  .text              ro code  0x0800140c    0x14  exit.o [5]
+  .text              ro code  0x08001420   0x2f0  mb.o [1]
+  .text              ro code  0x08001710    0x24  printf.o [3]
+  .text              ro code  0x08001734   0x14e  xprintftiny.o [3]
+  .text              ro code  0x08001884    0x36  strlen.o [4]
+  .text              ro code  0x080018ba   0x1ee  mbfuncholding.o [1]
+  .text              ro code  0x08001aa8   0x178  mbfunccoils.o [1]
+  .text              ro code  0x08001c20   0x158  system_stm32f10x.o [1]
+  .rodata            const    0x08001d78   0x100  mbcrc.o [1]
+  .rodata            const    0x08001e78   0x100  mbcrc.o [1]
+  .text              ro code  0x08001f78    0xbc  usart1.o [1]
+  .text              ro code  0x08002034    0x8e  mbfuncdisc.o [1]
+  .text              ro code  0x080020c2    0x7c  mbfuncinput.o [1]
+  .text              ro code  0x08002140    0x76  ABImemcpy_unaligned.o [4]
+  .rodata            const    0x080021b8    0x64  mbrtu.o [1]
+  .text              ro code  0x0800221c    0x50  mbfuncother.o [1]
+  .rodata            const    0x0800226c    0x48  mbutils.o [1]
+  .rodata            const    0x080022b4    0x40  mbrtu.o [1]
+  .text              ro code  0x080022f4    0x40  zero_init3.o [4]
+  .text              ro code  0x08002334    0x38  packbits_init_single.o [4]
+  .text              ro code  0x0800236c    0x2a  main.o [1]
+  .rodata            const    0x08002398    0x28  mbrtu.o [1]
+  .text              ro code  0x080023c0    0x28  data_init.o [4]
+  .rodata            const    0x080023e8    0x24  mb.o [1]
+  .iar.init_table    const    0x0800240c    0x20  - Linker created -
+  .rodata            const    0x0800242c    0x1c  mbrtu.o [1]
+  .rodata            const    0x08002448    0x1c  mbrtu.o [1]
+  .text              ro code  0x08002464    0x1a  cmain.o [4]
+  .text              ro code  0x0800247e     0x4  low_level_init.o [3]
+  .text              ro code  0x08002482     0x4  exit.o [3]
+  .text              ro code  0x08002488     0xa  cexit.o [4]
+  .text              ro code  0x08002492    0x16  xprout.o [3]
+  .text              ro code  0x080024a8     0xc  putchar.o [3]
+  .rodata            const    0x080024b4    0x10  mbutils.o [1]
+  .text              ro code  0x080024c4    0x10  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080024d4    0x10  stm32f10x_it.o [1]
+  .text              ro code  0x080024e4     0xc  cstartup_M.o [4]
+  .text              ro code  0x080024f0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080024f4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080024f8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080024fc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002500     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002504     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002508     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800250c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002510     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002514     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002518     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800251c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002520     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002524     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002528     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800252c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002530     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002534     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002538     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800253c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002540     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002544     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002548     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800254c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002550     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002554     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002558     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800255c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002560     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002564     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002568     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800256c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002570     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002574     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002578     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800257c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002580     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002584     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002588     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800258c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002590     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002594     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08002598     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800259c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025a0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025a4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025a8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025ac     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025b0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025b4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025b8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025bc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025c0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025c4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025c8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025cc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080025d0     0x4  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x080025d4     0x0  zero_init3.o [4]
+  .rodata            const    0x080025d4     0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x080025d4    0xb6  <for P2-1>
+                            - 0x0800268a  0x255a
+
+"P2", part 1 of 3:                         0x279
+  P2-1                        0x20000000   0x279  <Init block>
+    .data            inited   0x20000000    0x90  mb.o [1]
+    .data            inited   0x20000090    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x200000a0     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x200000a4     0x4  system_stm32f10x.o [1]
+    .data            inited   0x200000a8    0xc8  user_mb_app.o [1]
+    .data            inited   0x20000170    0xc8  user_mb_app.o [1]
+    .data            inited   0x20000238    0x40  xfiles.o [3]
+    .data            inited   0x20000278     0x1  mb.o [1]
+                            - 0x20000279   0x279
+
+"P2", part 2 of 3:                         0x800
+  CSTACK                      0x20000280   0x800  <Block>
+    CSTACK           uninit   0x20000280   0x800  <Block tail>
+                            - 0x20000a80   0x800
+
+"P2", part 3 of 3:                        0x2900
+  .bss               zero     0x20000a80  0x2710  mbrtu.o [1]
+  .bss               zero     0x20003190   0x100  mbrtu.o [1]
+  .bss               zero     0x20003290    0x50  xfiles.o [3]
+  .bss               zero     0x200032e0    0x20  mbfuncother.o [1]
+  .bss               zero     0x20003300     0x8  user_mb_app.o [1]
+  .bss               zero     0x20003308     0x8  user_mb_app.o [1]
+  .bss               zero     0x20003310     0x4  mb.o [1]
+  .bss               zero     0x20003314     0x4  mb.o [1]
+  .bss               zero     0x20003318     0x4  mb.o [1]
+  .bss               zero     0x2000331c     0x4  mb.o [1]
+  .bss               zero     0x20003320     0x4  mb.o [1]
+  .bss               zero     0x20003324     0x4  mb.o [1]
+  .bss               zero     0x20003328     0x4  mb.o [1]
+  .bss               zero     0x2000332c     0x4  mb.o [1]
+  .bss               zero     0x20003330     0x4  mb.o [1]
+  .bss               zero     0x20003334     0x4  mb.o [1]
+  .bss               zero     0x20003338     0x4  mbfuncother.o [1]
+  .bss               zero     0x2000333c     0x4  mbrtu.o [1]
+  .bss               zero     0x20003340     0x4  mbrtu.o [1]
+  .bss               zero     0x20003344     0x4  mbrtu.o [1]
+  .bss               zero     0x20003348     0x4  porttimer.o [1]
+  .bss               zero     0x2000334c     0x4  porttimer.o [1]
+  .bss               zero     0x20003350     0x4  porttimer.o [1]
+  .bss               zero     0x20003354     0x4  porttimer.o [1]
+  .bss               zero     0x20003358     0x2  mb.o [1]
+  .bss               zero     0x2000335a     0x2  mbfuncother.o [1]
+  .bss               zero     0x2000335c     0x2  mbrtu.o [1]
+  .bss               zero     0x2000335e     0x2  mbrtu.o [1]
+  .bss               zero     0x20003360     0x2  mbrtu.o [1]
+  .bss               zero     0x20003362     0x2  mbrtu.o [1]
+  .bss               zero     0x20003364     0x2  mbrtu.o [1]
+  .bss               zero     0x20003366     0x2  mbrtu.o [1]
+  .bss               zero     0x20003368     0x2  mbrtu.o [1]
+  .bss               zero     0x2000336a     0x2  mbrtu.o [1]
+  .bss               zero     0x2000336c     0x2  user_mb_app.o [1]
+  .bss               zero     0x2000336e     0x2  user_mb_app.o [1]
+  .bss               zero     0x20003370     0x2  user_mb_app.o [1]
+  .bss               zero     0x20003372     0x2  user_mb_app.o [1]
+  .bss               zero     0x20003374     0x2  user_mb_app.o [1]
+  .bss               zero     0x20003376     0x1  mb.o [1]
+  .bss               zero     0x20003377     0x1  mb.o [1]
+  .bss               zero     0x20003378     0x1  mb.o [1]
+  .bss               zero     0x20003379     0x1  mb.o [1]
+  .bss               zero     0x2000337a     0x1  mb.o [1]
+  .bss               zero     0x2000337b     0x1  mbrtu.o [1]
+  .bss               zero     0x2000337c     0x1  mbrtu.o [1]
+  .bss               zero     0x2000337d     0x1  mbrtu.o [1]
+  .bss               zero     0x2000337e     0x1  portevent.o [1]
+  .bss               zero     0x2000337f     0x1  portevent.o [1]
+                            - 0x20003380  0x2900
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2900:
+          0x20000a80  0x2900
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xb6 (28% of destination):
+          0x080025d4    0xb6
+    1 destination range, total size 0x279:
+          0x20000000   0x279
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj: [1]
+    main.o                       42
+    mb.o                        752       78      192
+    mbcrc.o                      60      512
+    mbfunccoils.o               376
+    mbfuncdisc.o                142
+    mbfuncholding.o             494
+    mbfuncinput.o               124
+    mbfuncother.o                80                38
+    mbrtu.o                   1 284      260   10 287
+    mbutils.o                   190       88
+    misc.o                      124
+    portevent.o                  64                 2
+    portserial.o                364
+    porttimer.o                 668                16
+    startup_stm32f10x_hd.o      548
+    stm32f10x_gpio.o            192
+    stm32f10x_it.o               16
+    stm32f10x_rcc.o             280        6       20
+    stm32f10x_tim.o             320
+    stm32f10x_usart.o           448
+    system_stm32f10x.o          344        1        4
+    usart1.o                    188
+    user_mb_app.o               788      115      426
+    -------------------------------------------------
+    Total:                    7 888    1 060   10 985
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                       6
+    exit.o                        4
+    low_level_init.o              4
+    printf.o                     36
+    putchar.o                    12
+    xfiles.o                              18      144
+    xprintftiny.o               334
+    xprout.o                     22
+    -------------------------------------------------
+    Total:                      418       18      144
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o       118
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       56
+    strlen.o                     54
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      380
+
+shb_l.a: [5]
+    ABIassert.o                  36
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       56
+
+    Gaps                         10        4
+    Linker created                        32    2 048
+-----------------------------------------------------
+    Grand Total:              8 752    1 114   13 177
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0800240c           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800242c           --   Gb  - Linker created -
+?main                   0x08002465          Code  Gb  cmain.o [4]
+ADCPrescTable           0x200000a0     0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x20000090    0x10  Data  Lc  stm32f10x_rcc.o [1]
+BusFault_Handler        0x080024db     0x2  Code  Gb  stm32f10x_it.o [1]
+CRC_Error               0x2000336a     0x2  Data  Gb  mbrtu.o [1]
+CSTACK$$Base            0x20000280           --   Gb  - Linker created -
+CSTACK$$Limit           0x20000a80           --   Gb  - Linker created -
+DebugMon_Handler        0x080024e1     0x2  Code  Gb  stm32f10x_it.o [1]
+Error_ACKNOWLEDGE       0x20003348     0x4  Data  Gb  porttimer.o [1]
+Error_State_T15         0x20003368     0x2  Data  Gb  mbrtu.o [1]
+ExceptionBuf            0x20003308     0x8  Data  Gb  user_mb_app.o [1]
+Frame_send_flag         0x20003310     0x4  Data  Gb  mb.o [1]
+GPIO_Init               0x08001209    0xc0  Code  Gb  stm32f10x_gpio.o [1]
+HardFault_Handler       0x080024d7     0x2  Code  Gb  stm32f10x_it.o [1]
+Master_RepTime          0x20003338     0x4  Data  Gb  mbfuncother.o [1]
+MemManage_Handler       0x080024d9     0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler             0x080024d5     0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Init               0x080012d3    0x5e  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x080012c9     0xa  Code  Gb  misc.o [1]
+PendSV_Handler          0x080024e3     0x2  Code  Gb  stm32f10x_it.o [1]
+RCC_APB1PeriphClockCmd  0x080011cb    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080011ab    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x080010f1    0xba  Code  Gb  stm32f10x_rcc.o [1]
+Region$$Table$$Base     0x0800240c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800242c           --   Gb  - Linker created -
+SVC_Handler             0x080024df     0x2  Code  Gb  stm32f10x_it.o [1]
+Send_exception          0x08000edb    0x2a  Code  Gb  user_mb_app.o [1]
+SetSysClock             0x08001c75     0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x08001c7d    0xe0  Code  Lc  system_stm32f10x.o [1]
+SysTick_Handler         0x080009f5     0x8  Code  Gb  porttimer.o [1]
+SystemCoreClock         0x200000a4     0x4  Data  Gb  system_stm32f10x.o [1]
+SystemInit              0x08001c21    0x54  Code  Gb  system_stm32f10x.o [1]
+TIM4_IRQHandler         0x080009fd    0x18  Code  Gb  porttimer.o [1]
+TIMER_14_ExpiredISR     0x08000563    0x4c  Code  Gb  mbrtu.o [1]
+TIM_ARRPreloadConfig    0x08000ba3    0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearITPendingBit   0x08000beb     0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x08000b6f    0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x08000bc3    0x28  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x08000b8b    0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetCounter          0x08000bbf     0x4  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x08000add    0x92  Code  Gb  stm32f10x_tim.o [1]
+USART1_IRQHandler       0x08000755    0x3c  Code  Gb  portserial.o [1]
+USART2_Config           0x08001f79    0x72  Code  Gb  usart1.o [1]
+USART2_IRQHandler       0x08001feb    0x1c  Code  Gb  usart1.o [1]
+USART_ClearITPendingBit
+                        0x080010d3    0x1e  Code  Gb  stm32f10x_usart.o [1]
+USART_Cmd               0x08000ff1    0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x0800106f    0x64  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x0800100d    0x52  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x08000f31    0xba  Code  Gb  stm32f10x_usart.o [1]
+USART_ReceiveData       0x08001067     0x8  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x0800105f     0x8  Code  Gb  stm32f10x_usart.o [1]
+UsageFault_Handler      0x080024dd     0x2  Code  Gb  stm32f10x_it.o [1]
+_PrintfTiny             0x0800174d   0x136  Code  Gb  xprintftiny.o [3]
+_Prout                  0x08002493    0x16  Code  Gb  xprout.o [3]
+__aeabi_assert          0x08000a3d    0x24  Code  Gb  ABIassert.o [5]
+__cmain                 0x08002465          Code  Gb  cmain.o [4]
+__exit                  0x0800140d    0x14  Code  Gb  exit.o [5]
+__iar_Stdout            0x20000238    0x40  Data  Gb  xfiles.o [3]
+__iar_data_init3        0x080023c1    0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                        0x08002335    0x38  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x080024e5          Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08002141          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x08002161          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                        0x08002161          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3        0x080022f5    0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x0800247f     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f10x_hd.o [1]
+_call_main              0x08002471          Code  Gb  cmain.o [4]
+_exit                   0x08002489          Code  Gb  cexit.o [4]
+_main                   0x0800247b          Code  Gb  cmain.o [4]
+abort                   0x08001345     0x6  Code  Gb  abort.o [3]
+aucCRCHi                0x08001d78   0x100  Data  Lc  mbcrc.o [1]
+aucCRCLo                0x08001e78   0x100  Data  Lc  mbcrc.o [1]
+delay_mb                0x08001421    0x1a  Code  Gb  mb.o [1]
+eMBCurrentMode          0x20003377     0x1  Data  Lc  mb.o [1]
+eMBEnable               0x080014eb    0x22  Code  Gb  mb.o [1]
+eMBFuncGetMasterRespondTime
+                        0x0800223b    0x26  Code  Gb  mbfuncother.o [1]
+eMBFuncReadCoils        0x08001aa9    0x90  Code  Gb  mbfunccoils.o [1]
+eMBFuncReadDiscreteInputs
+                        0x08002035    0x8e  Code  Gb  mbfuncdisc.o [1]
+eMBFuncReadHoldingRegister
+                        0x08001959    0x7c  Code  Gb  mbfuncholding.o [1]
+eMBFuncReadInputRegister
+                        0x080020c3    0x7c  Code  Gb  mbfuncinput.o [1]
+eMBFuncReadWriteMultipleHoldingRegister
+                        0x080019d5    0xd4  Code  Gb  mbfuncholding.o [1]
+eMBFuncReportSlaveID    0x0800221d    0x1e  Code  Gb  mbfuncother.o [1]
+eMBFuncWriteCoil        0x08001b39    0x6a  Code  Gb  mbfunccoils.o [1]
+eMBFuncWriteHoldingRegister
+                        0x080018bb    0x38  Code  Gb  mbfuncholding.o [1]
+eMBFuncWriteMultipleCoils
+                        0x08001ba3    0x7e  Code  Gb  mbfunccoils.o [1]
+eMBFuncWriteMultipleHoldingRegister
+                        0x080018f3    0x66  Code  Gb  mbfuncholding.o [1]
+eMBInit                 0x0800143b    0xb0  Code  Gb  mb.o [1]
+eMBPoll                 0x0800150d   0x196  Code  Gb  mb.o [1]
+eMBPoll::eException     0x2000337a     0x1  Data  Lc  mb.o [1]
+eMBPoll::ucFunctionCode
+                        0x20003379     0x1  Data  Lc  mb.o [1]
+eMBPoll::ucMBFrame      0x20003334     0x4  Data  Lc  mb.o [1]
+eMBPoll::ucRcvAddress   0x20003378     0x1  Data  Lc  mb.o [1]
+eMBPoll::usLength       0x20003358     0x2  Data  Lc  mb.o [1]
+eMBRTUInit              0x08000131    0x70  Code  Gb  mbrtu.o [1]
+eMBRTUReceive           0x080001c9    0x68  Code  Gb  mbrtu.o [1]
+eMBRTUSend              0x08000231    0xfc  Code  Gb  mbrtu.o [1]
+eMBRTUStart             0x080001a1    0x18  Code  Gb  mbrtu.o [1]
+eMBRTUStop              0x080001b9    0x10  Code  Gb  mbrtu.o [1]
+eMBRegCoilsCB           0x08000d19   0x116  Code  Gb  user_mb_app.o [1]
+eMBRegDiscreteCB        0x08000e2f    0xac  Code  Gb  user_mb_app.o [1]
+eMBRegHoldingCB         0x08000c7b    0x9e  Code  Gb  user_mb_app.o [1]
+eMBRegInputCB           0x08000c1d    0x5e  Code  Gb  user_mb_app.o [1]
+eMBState                0x20000278     0x1  Data  Lc  mb.o [1]
+eQueuedEvent            0x2000337e     0x1  Data  Lc  portevent.o [1]
+eRcvState               0x2000337c     0x1  Data  Lc  mbrtu.o [1]
+eSlaveCurTimerMode      0x2000337d     0x1  Data  Gb  mbrtu.o [1]
+eSndState               0x2000337b     0x1  Data  Lc  mbrtu.o [1]
+exit                    0x08002483     0x4  Code  Gb  exit.o [3]
+fputc                   0x08002007    0x1c  Code  Gb  usart1.o [1]
+main                    0x0800236d    0x2a  Code  Gb  main.o [1]
+obuf                    0x20003290    0x50  Data  Lc  xfiles.o [3]
+out                     0x08001735    0x18  Code  Lc  xprintftiny.o [3]
+peMBFrameReceiveCur     0x20003320     0x4  Data  Lc  mb.o [1]
+peMBFrameSendCur        0x20003314     0x4  Data  Lc  mb.o [1]
+printf                  0x08001711    0x24  Code  Gb  printf.o [3]
+prveMBError2Exception   0x080013e9    0x22  Code  Gb  mbutils.o [1]
+prvvTIMERExpiredISR     0x080009eb     0xa  Code  Lc  porttimer.o [1]
+prvvUARTRxISR           0x0800074b     0xa  Code  Lc  portserial.o [1]
+prvvUARTTxReadyISR      0x08000741     0xa  Code  Lc  portserial.o [1]
+pucSndBufferCur         0x2000333c     0x4  Data  Lc  mbrtu.o [1]
+putchar                 0x080024a9     0xc  Code  Gb  putchar.o [3]
+pvMBFrameCloseCur       0x20003324     0x4  Data  Lc  mb.o [1]
+pvMBFrameStartCur       0x20003318     0x4  Data  Lc  mb.o [1]
+pvMBFrameStopCur        0x2000331c     0x4  Data  Lc  mb.o [1]
+pxMBFrameCBByteReceived
+                        0x20003328     0x4  Data  Gb  mb.o [1]
+pxMBFrameCBTransmitterEmpty
+                        0x2000332c     0x4  Data  Gb  mb.o [1]
+pxMBPortCBTimerExpired  0x20003330     0x4  Data  Gb  mb.o [1]
+strlen                  0x08001885          Code  Gb  strlen.o [4]
+test15                  0x2000334c     0x4  Data  Gb  porttimer.o [1]
+test20                  0x20003350     0x4  Data  Gb  porttimer.o [1]
+test35                  0x20003354     0x4  Data  Gb  porttimer.o [1]
+timer14_35              0x20003344     0x4  Data  Gb  mbrtu.o [1]
+timer4                  0x20003340     0x4  Data  Gb  mbrtu.o [1]
+ucMBAddress             0x20003376     0x1  Data  Lc  mb.o [1]
+ucMBSlaveID             0x200032e0    0x20  Data  Lc  mbfuncother.o [1]
+ucRTUBuf                0x20003190   0x100  Data  Gb  mbrtu.o [1]
+ucRTUBuf_Receive        0x20000a80  0x2710  Data  Gb  mbrtu.o [1]
+ucSCoilBuf              0x20003300     0x8  Data  Gb  user_mb_app.o [1]
+ucSDiscInBuf            0x2000336e     0x2  Data  Gb  user_mb_app.o [1]
+usMBCRC16               0x08000a61    0x3c  Code  Gb  mbcrc.o [1]
+usMBSlaveIDLen          0x2000335a     0x2  Data  Lc  mbfuncother.o [1]
+usRcvBufferPos          0x2000335e     0x2  Data  Lc  mbrtu.o [1]
+usSCoilStart            0x20003370     0x2  Data  Gb  user_mb_app.o [1]
+usSDiscInStart          0x2000336c     0x2  Data  Gb  user_mb_app.o [1]
+usSRegHoldBuf           0x20000170    0xc8  Data  Gb  user_mb_app.o [1]
+usSRegHoldStart         0x20003374     0x2  Data  Gb  user_mb_app.o [1]
+usSRegInBuf             0x200000a8    0xc8  Data  Gb  user_mb_app.o [1]
+usSRegInStart           0x20003372     0x2  Data  Gb  user_mb_app.o [1]
+usSndBufferCount        0x2000335c     0x2  Data  Lc  mbrtu.o [1]
+usTestRcvBufferPos      0x20003360     0x2  Data  Lc  mbrtu.o [1]
+usTimerT15_50us         0x20003362     0x2  Data  Gb  mbrtu.o [1]
+usTimerT20_50us         0x20003364     0x2  Data  Gb  mbrtu.o [1]
+usTimerT35_50us         0x20003366     0x2  Data  Gb  mbrtu.o [1]
+vMBPortSerialEnable     0x08000635    0x46  Code  Gb  portserial.o [1]
+vMBPortSolveTimersDisable
+                        0x08000933    0x26  Code  Gb  porttimer.o [1]
+vMBPortSolveTimersEnable
+                        0x08000851    0x34  Code  Gb  porttimer.o [1]
+vMBPortT35SendTimersEnable
+                        0x08000885    0xae  Code  Gb  porttimer.o [1]
+vMBPortTimersDisable    0x080009dd     0xe  Code  Gb  porttimer.o [1]
+vMBPortTimersT15Enable  0x08000959    0x2c  Code  Gb  porttimer.o [1]
+vMBPortTimersT20Enable  0x08000985    0x2c  Code  Gb  porttimer.o [1]
+vMBPortTimersT35Enable  0x080009b1    0x2c  Code  Gb  porttimer.o [1]
+vMBSlaveSetCurTimerMode
+                        0x080005af     0x6  Code  Gb  mbrtu.o [1]
+xEventInQueue           0x2000337f     0x1  Data  Lc  portevent.o [1]
+xFuncHandlers           0x20000000    0x90  Data  Lc  mb.o [1]
+xMBPortEventGet         0x08000ab5    0x1e  Code  Gb  portevent.o [1]
+xMBPortEventInit        0x08000a9d     0xa  Code  Gb  portevent.o [1]
+xMBPortEventPost        0x08000aa7     0xe  Code  Gb  portevent.o [1]
+xMBPortSerialGetByte    0x08000731    0x10  Code  Gb  portserial.o [1]
+xMBPortSerialInit       0x0800067b    0xa4  Code  Gb  portserial.o [1]
+xMBPortSerialPutByte    0x0800071f    0x12  Code  Gb  portserial.o [1]
+xMBPortSolveTimersInit  0x080007cb    0x86  Code  Gb  porttimer.o [1]
+xMBPortTimersInit       0x080007a1    0x2a  Code  Gb  porttimer.o [1]
+xMBRTUReceiveFSM        0x0800032d    0xd4  Code  Gb  mbrtu.o [1]
+xMBRTUTimerExpired      0x0800047d    0xe6  Code  Gb  mbrtu.o [1]
+xMBRTUTransmitFSM       0x08000401    0x7c  Code  Gb  mbrtu.o [1]
+xMBUtilGetBits          0x080013b9    0x30  Code  Gb  mbutils.o [1]
+xMBUtilSetBits          0x0800134d    0x62  Code  Gb  mbutils.o [1]
+
+
+[1] = E:\Freemodbus从机（T15第二版）测试 - 副本\EWARM\Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+   8 752 bytes of readonly  code memory
+   1 114 bytes of readonly  data memory
+  13 177 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
