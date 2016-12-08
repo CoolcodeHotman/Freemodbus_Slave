@@ -1,0 +1,1 @@
+# Freemodbus_Slave基于freemodbus框架自己改写。添加 了T15定时器中断用于鉴别一帧之内字符与字符之间的时间间隔
